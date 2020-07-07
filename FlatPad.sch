@@ -562,10 +562,8 @@ Text GLabel 6825 2125 0    50   Input ~ 0
 GND
 Wire Wire Line
 	6825 2125 6950 2125
-Text GLabel 7650 2025 2    50   Input ~ 0
+Text GLabel 7650 2225 2    50   Input ~ 0
 COL3
-Wire Wire Line
-	7550 2025 7650 2025
 Wire Wire Line
 	6475 2025 6475 2325
 Wire Wire Line
@@ -780,11 +778,6 @@ Wire Wire Line
 	6650 2825 5800 2825
 Connection ~ 5800 2825
 Wire Wire Line
-	6650 2525 7650 2525
-Wire Wire Line
-	7650 2525 7650 2225
-Connection ~ 6650 2525
-Wire Wire Line
 	6475 2325 6475 2450
 Wire Wire Line
 	6475 2450 6525 2450
@@ -792,4 +785,15 @@ Wire Wire Line
 	6525 2450 6525 3075
 Connection ~ 6475 2325
 Connection ~ 6525 3075
+Wire Wire Line
+	6650 2525 6650 2325
+Wire Wire Line
+	6650 2325 6575 2325
+Wire Wire Line
+	6575 2325 6575 1900
+Wire Wire Line
+	6575 1900 7550 1900
+Wire Wire Line
+	7550 1900 7550 2025
+Connection ~ 6650 2525
 $EndSCHEMATC
